@@ -3,11 +3,27 @@ body {
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
     color:rgb(0, 0, 0)
-}
-#t1 {
-background-color:antiquewhite
-}
-
+        }
 #t2 {
 background-color:darkgray        
 }
+    #navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      .navitem {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111;
+      }
